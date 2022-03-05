@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Cedarville+Cursive&family=Poppins:wght@200&display=swap');
+.img-fluid{height: 200px; width: 150px;  margin-left: 580px; margin-top: 30px; box-shadow: 0 0 20px #7cf8b0,
+    0 0 60px #65f3ac ;}
+.kadhal-valarthen{margin-top: -70px; margin-left:450px;}
+.loosePennae{margin-top: -70px; margin-left:450px;}
+.songs{background-image:linear-gradient(80deg,rgb(24, 24, 24),rgb(68, 68, 68)); }
+.body{overflow-x: hidden;}
+.column {
+    
+    width: 50%;
+    padding: 10px;
+ 
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.audioBoxBody {
+    margin-top: 100px;
+    padding-left: 50px;
+
+}
+.nav-link:after{
+    content: "!";
+}
+.heartShape{ background:plum; }
+.heart{
+    margin-top: 50px;
+    width: 70px;
+    height: 70px;
+    background: #F90B57;
+    position: relative;
+    margin-left: 620px;
+    box-shadow: 0 0 20px #ff155f,
+                0 0 60px #ff155f;
+    transform: rotate(-45deg);
+    animation: heart 1s linear infinite 0.2s alternate;
+}
+@keyframes heart {
+    0%{
+        transform: rotate(-45deg) scale(1);
+    }
+    90%{
+        transform: rotate(-45deg) scale(1.6);
+    }
+    100%{
+        transform: rotate(-45deg) scale(1.4);
+    }
+}
+.heart::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #F90B57;
+    border-radius: 50%;
+    left: 0;
+    top: -50%;
+}
+.heart::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #F90B57;
+    border-radius: 50%;
+    top: 0;
+    right: -50%;
+}
+.navbar{
+    background: rgb(247, 131, 150);
+}
+.navbar-brand{ color: rgb(5, 89, 92); font-family: 'Cedarville Cursive'; padding: 10px;}
+.navbar-brand:hover{color: rgb(51, 42, 30);}
+.navbar-nav{padding-right: 30px; font-family: 'Cedarville Cursive'; font-size: 19px; text-transform: capitalize; color: aquamarine;}
+.nav-item a{ color:rgb(5, 89, 92);}
+.nav-item a:hover{ color:rgb(227, 245, 70);}
+.bi-bi-balloon-heart-fill{
+    color: indianred;
+    text-shadow:  solid rgb(187, 66, 66) 3px 3px 3px;
+}
+ .spacer{flex: auto 1  1 ;}
+ .container-img{
+     width: 100%;
+     height:250px;
+     
+     background-image: url('assets/images/parallax.png');
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ .scroll-main{
+     text-transform: capitalize;
+     font-family: 'Cedarville Cursive';
+     transform: translate(140%,-10%);
+     color: rgba(233, 56, 94, 0.637);
+    
+ }
+ .Seconds{text-align: center;font-family:'Architects Daughter';color:rgb(248, 134, 149)}
+ .hours{text-align: center;font-family:'Architects Daughter';color:rgb(248, 134, 149)}
+ .days{text-align: center;font-family:'Architects Daughter'; color: rgb(248, 134, 149);}
+ .wrapper{
+     box-sizing: content-box;
+     background-color: none;
+     height: 70px;
+     padding: 50px 30px;
+     display: flex;
+}
+
+.ily{ text-align: center; font-size: 25px; font-family: 'Cedarville Cursive'; margin-top: 30px;}
+.ily-p{text-align: center; font-size: 25px; font-family: 'Cedarville Cursive'; margin-top: 30px;}
+.infinite-count{
+    background-image:linear-gradient( rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('assets/images/infinite-count.jpg');
+    height:300px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin-top: -13px;
+    
+
+}
+.songName{text-align: center; font-family: 'Architects Daughter'; color: azure; text-transform: capitalize; margin-top: 20px;}
+.mygirl{background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.6)),url('assets/images/love letter.jpg');
+          height: 400px;
+          width: 100%;   
+          background-attachment: fixed;
+          background-position: center;
+          background-size: cover;      
+ }
+.MyHeera{padding-left: 30px; text-transform: capitalize; font-family: 'Architects Daughter'; color: aliceblue;}
+.para-point{ line-height: -30px; margin-left: 90px; text-transform: capitalize; text-align: justify;font-family:'Architects Daughter';
+     color: aliceblue;}
+.para{text-transform: capitalize; color: rgb(248, 134, 149); font-family: 'Architects Daughter'; text-align: center; padding: 15px;}
+.regards{float: right; text-transform: capitalize; font-family: 'Cedarville Cursive'; margin-right: 30px; color: rgb(248, 134, 149);}
+.words{
+ overflow: hidden;
+
+ padding-left: 450px;
+ transform: translate(-40%,50%);
+}
+.proposal{text-align: center; font-family: 'Architects Daughter'; color: rgb(86, 244, 250);}
+.proposal-para{text-align: center; font-family: 'Cedarville Cursive'; color: rgb(158, 116, 226); font-size:25px;}
+.loveTowordsToYou{
+     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("assets/images/hd1.jpg");
+     height: 350px;
+     width: 100%;
+     background-attachment: fixed;
+     background-position: center;
+     background-size: cover;     
+}
+.scroll-sub{
+    display: block;
+     height: 100%;
+    
+     padding-bottom: 10px;
+    
+     font-family: 'Cedarville Cursive';
+     font-size: 45px;
+     animation: spin_words 7s infinite;
+     color:rgba(133, 23, 23, 0.705);
+}
+@keyframes spin_words{
+     10%{
+         transform: translateY(-112%);
+     }
+     25%{
+        transform: translateY(-100%);
+    }
+    35%{
+        transform: translateY(-212%);
+    }
+    50%{
+        transform: translateY(-200%);
+    }
+    65%{
+        transform: translateY(-312%);
+    }
+    75%{
+        transform: translateY(-300%);}
+    80%{
+        transform: translateY(-412%);}
+    100%{
+        transform: translateY(-400%);}
+    }
+    @media (max-width:738px) {
+        .img-fluid{height: 200px; width: 150px;  margin-left: 140px; margin-top: 30px; 
+            box-shadow: 0 0 20px #7cf8b0,
+            0 0 60px #65f3ac ;}
+.kadhal-valarthen{margin-top: -90px; margin-left:10px;}
+.loosePennae{margin-top: -90px; margin-left:10px;}
+        .column{width: 100%;}
+        .proposal{text-align: center; font-family: 'Architects Daughter'; color: rgb(86, 244, 250); font-size: 20px;}
+        .proposal-para{text-align: center; font-family: 'Cedarville Cursive'; color: rgb(158, 116, 226); font-size:15px;}
+               .navbar-nav{margin-left: 15px;}
+               .MyHeera{padding-left: 15px;}
+               .para-point{margin-left:10px; font-size: 13px; padding: 5px;}
+               .regards{margin-right: 30px; margin-top: -25px;}
+      
+                .scroll-main{transform: translate(40%,-50%);color: rgba(185, 20, 75, 0.788); text-shadow: solid 2px;}
+                .scroll-sub{
+                    display: block;
+                     height: 100%;
+                     
+                   
+                     font-family: 'Cedarville Cursive';
+                     font-size: 29px;
+                     animation: spin_words 7s infinite;
+                     color:rgba(70, 87, 241, 0.705)}
+                     .wrappe{
+                        box-sizing: content-box;
+                        background-color: none;
+                        height: 70px;
+                        padding: 50px 10px;
+                        display: flex;
+                        font-size: 13px;
+                   }
+                   .heartShape{margin-top: 100px; }
+.heart{
+    width: 70px;
+    height: 70px;
+    background: #F90B57;
+    position: relative;
+    margin-left: 200px;
+    box-shadow: 0 0 20px #ff155f,
+                0 0 60px #ff155f;
+    transform: rotate(-45deg);
+    animation: heart 1s linear infinite 0.2s alternate;
+}
+@keyframes heart {
+    0%{
+        transform: rotate(-45deg) scale(1);
+    }
+    90%{
+        transform: rotate(-45deg) scale(1.6);
+    }
+    100%{
+        transform: rotate(-45deg) scale(1.4);
+    }
+}
+.heart::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #F90B57;
+    border-radius: 50%;
+    left: 0;
+    top: -50%;
+}
+.heart::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #F90B57;
+    border-radius: 50%;
+    top: 0;
+    right: -50%;}
+                   .words{
+                    overflow: hidden;
+                    padding-left: 10px;
+                    transform: translate(-60%,50%);
+    }
+}
